@@ -1,0 +1,540 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1660050040634729, "dur":947, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050040635680, "dur":41, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1660050040635729, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1660050040635742, "dur":319, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1660050040636088, "dur":532, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050040636620, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041253837, "dur":83, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041253920, "dur":139, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254059, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254062, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254087, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254089, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254094, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254096, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254101, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254102, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254108, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254110, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254114, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254116, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254121, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254123, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254127, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254128, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254134, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254135, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254140, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254141, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254146, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254147, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254152, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254164, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041254166, "dur":1230, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1660050040636312, "dur":313, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050040636626, "dur":3589, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050040640224, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1660050040640225, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050040640284, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1660050040640288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050040640973, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1660050040642769, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1660050040642809, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050040643020, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1660050040643743, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1660050040643787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050040643848, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1660050040644784, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1660050040644833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050040644841, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1660050040646340, "dur":35923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040682267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050040682275, "dur":17445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040699762, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040699812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050040699821, "dur":102319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040802185, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040802230, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050040802259, "dur":29418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040831724, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040831768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050040831778, "dur":36152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040867968, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040868009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050040868015, "dur":21439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040889492, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040889553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050040889560, "dur":34593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040924196, "dur":19416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040943617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050040943626, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040944640, "dur":599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040945242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050040945250, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040946185, "dur":20637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040966828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050040966838, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040967974, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050040968017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050040968024, "dur":130903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050041098965, "dur":50563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050041149531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660050041149539, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660050041150696, "dur":103137, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660050040636341, "dur":293, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660050040636634, "dur":3593, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660050040640228, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1660050040640389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660050040682446, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1660050040683902, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660050040683953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660050040684055, "dur":49785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660050040733881, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660050040733929, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660050040733937, "dur":55091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660050040789069, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660050040789112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660050040789120, "dur":29470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660050040818633, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660050040818679, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660050040818686, "dur":28635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660050040847360, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660050040847402, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660050040847410, "dur":19969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660050040867423, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660050040867469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660050040867479, "dur":51409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660050040918925, "dur":177420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660050041096351, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660050041096363, "dur":1393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660050041097803, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660050041097846, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660050041097854, "dur":126439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660050041224322, "dur":29515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050040636329, "dur":300, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050040636629, "dur":3596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050040640225, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1660050040640318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050040645009, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1660050040646362, "dur":35921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1660050040682287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050040682294, "dur":1979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1660050040684320, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050040684366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050040684502, "dur":45751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050040730296, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050040730341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050040730370, "dur":27751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050040758155, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050040758193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050040758200, "dur":59290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050040817532, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050040817574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050040817583, "dur":18914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050040836542, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050040836583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050040836592, "dur":19891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050040856523, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050040856564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050040856574, "dur":20668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050040877289, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050040877331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050040877340, "dur":27511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050040904894, "dur":80116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050040985014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050040985023, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050040986049, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050040986088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050040986095, "dur":101385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050041087520, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050041087562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050041087573, "dur":32785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660050041120400, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1660050041120515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050041120871, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1660050041121716, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1660050041121757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050041121811, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1660050041122888, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1660050041122927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050041122934, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1660050041124346, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1660050041124385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050041124391, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1660050041125782, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1660050041125822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050041125829, "dur":2895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1660050041128766, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1660050041128807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050041128816, "dur":20411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1660050041149272, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1660050041149321, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660050041149329, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1660050041150592, "dur":103243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660050040636362, "dur":274, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660050040636636, "dur":3584, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660050040640224, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1660050040640302, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660050040644011, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1660050040645087, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1660050040645128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660050040645135, "dur":38381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1660050040683740, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660050040683797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660050040683967, "dur":32475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660050040716484, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660050040716525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660050040716534, "dur":40245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660050040756819, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660050040756862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660050040756871, "dur":92305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660050040849215, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660050040849259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660050040849267, "dur":81737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660050040931043, "dur":2680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660050040933728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660050040933738, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660050040934786, "dur":49478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660050040984269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660050040984279, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660050040985356, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660050040985396, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660050040985403, "dur":31223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660050041016666, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660050041016704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660050041016713, "dur":154714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660050041171454, "dur":82384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050040636381, "dur":260, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050040636641, "dur":3582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050040640225, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1660050040640301, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050040641506, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1660050040642710, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1660050040642767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050040643212, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1660050040643881, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1660050040643914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050040643919, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1660050040644983, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1660050040645033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050040645040, "dur":37215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1660050040682308, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox.exe" }}
+,{ "pid":12345, "tid":5, "ts":1660050040682354, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050040682358, "dur":4798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox.exe" }}
+,{ "pid":12345, "tid":5, "ts":1660050040687205, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050040687264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050040687276, "dur":26315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050040713648, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050040713763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050040713773, "dur":29124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050040742942, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050040742985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050040742995, "dur":110509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050040853550, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050040853593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050040853602, "dur":21562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050040875204, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050040875257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050040875267, "dur":23171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050040898495, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050040898538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050040898547, "dur":22704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050040921289, "dur":676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050040921969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050040921978, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050040923289, "dur":45704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050040968997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050040969006, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050040970069, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050040970116, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050040970123, "dur":120259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050041090425, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050041090465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660050041090474, "dur":163297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660050041253809, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1660050041253811, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050040636399, "dur":247, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050040636646, "dur":3575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050040640225, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1660050040640348, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050040645428, "dur":37368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1660050040682835, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1660050040682883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050040683182, "dur":6597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1660050040689823, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040689928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050040689937, "dur":26910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040716896, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040716961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050040716968, "dur":28641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040745647, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040745693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050040745702, "dur":29148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040774892, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040774939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050040774948, "dur":33988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040808979, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040809020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050040809029, "dur":34053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040843124, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040843164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050040843172, "dur":24984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040868210, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040868257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050040868264, "dur":21134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040889441, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040889484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050040889494, "dur":19013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040908549, "dur":63687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040972241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050040972251, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040973586, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050040973670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050040973700, "dur":64176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050041037917, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050041037954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050041037963, "dur":105415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660050041143428, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1660050041143480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050041143570, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1660050041145095, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1660050041145139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660050041145146, "dur":7695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1660050041152878, "dur":100965, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050040636415, "dur":234, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050040636649, "dur":3570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050040640225, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1660050040640311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050040644180, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1660050040645272, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050040645337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050040645755, "dur":37521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050040683319, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050040683381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050040684093, "dur":68324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050040752457, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050040752499, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050040752508, "dur":65269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050040817818, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050040817867, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050040817875, "dur":29958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050040847881, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050040847927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050040847935, "dur":31060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050040879031, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050040879069, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050040879075, "dur":39786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050040918907, "dur":59102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050040978015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050040978026, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050040979584, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050040979628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050040979636, "dur":66205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050041045881, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050041045927, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050041045936, "dur":89908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660050041135887, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1660050041135933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050041135943, "dur":4206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1660050041140190, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1660050041140228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050041140238, "dur":4013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1660050041144291, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1660050041144415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050041144424, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1660050041145475, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1660050041145518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050041145525, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1660050041147066, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1660050041147188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050041147195, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1660050041148341, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1660050041148385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050041148394, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1660050041149600, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1660050041149646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660050041149651, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1660050041150836, "dur":102998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660050040636435, "dur":218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660050040636653, "dur":3573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660050040640226, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1660050040640313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660050040645052, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1660050040646142, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050040646192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660050040682260, "dur":6513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050040688831, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050040688890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660050040688929, "dur":39691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050040728661, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050040728700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660050040728708, "dur":68819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050040797568, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050040797611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660050040797620, "dur":29009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050040826671, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050040826714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660050040826725, "dur":23807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050040850573, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050040850614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660050040850622, "dur":28838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050040879496, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050040879533, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660050040879539, "dur":30646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050040910234, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050040910281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660050040910290, "dur":49242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050040959572, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050040959614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660050040959621, "dur":46126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050041005789, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050041005831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660050041005840, "dur":155620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660050041161489, "dur":92355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660050040636448, "dur":209, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660050040636657, "dur":3571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660050040640228, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1660050040640350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660050040646052, "dur":37714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1660050040683809, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050040683863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660050040684281, "dur":28263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050040712591, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050040712928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660050040712939, "dur":25924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050040738904, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050040738943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660050040738952, "dur":48120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050040787148, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050040787240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660050040787249, "dur":36994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050040824287, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050040824327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660050040824336, "dur":43165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050040867539, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050040867578, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660050040867584, "dur":24938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050040892566, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050040892612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660050040892619, "dur":34825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050040927487, "dur":29687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050040957180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660050040957191, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050040959025, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050040959066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660050040959073, "dur":76026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050041035140, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050041035180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660050041035190, "dur":32296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050041067528, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050041067571, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660050041067580, "dur":88485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660050041156103, "dur":97745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660050040636502, "dur":158, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660050040636660, "dur":3574, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660050040640234, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1660050040640401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660050040683017, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1660050040684359, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660050040684414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660050040684503, "dur":58985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660050040743537, "dur":119546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660050040863090, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660050040863102, "dur":4337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660050040867481, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660050040867548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660050040867555, "dur":23592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660050040891194, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660050040891235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660050040891243, "dur":103632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660050040994912, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660050040994952, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660050040995017, "dur":25481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660050041020538, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660050041020575, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660050041020583, "dur":148747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660050041169357, "dur":84489, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660050040636517, "dur":147, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660050040636664, "dur":3565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660050040640231, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1660050040640456, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660050040717594, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1660050040719567, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040719607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660050040719616, "dur":72037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040791694, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040791734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660050040791743, "dur":26882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040818662, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040818701, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660050040818708, "dur":33031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040851779, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040851819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660050040851837, "dur":26899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040878774, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040878814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660050040878822, "dur":21004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040899861, "dur":35092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040934957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660050040934965, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040935850, "dur":2490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040938345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660050040938354, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040939317, "dur":1480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040940800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660050040940809, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040942005, "dur":20436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040962447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660050040962458, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040963767, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050040963808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660050040963816, "dur":75108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050041038967, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050041039013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660050041039020, "dur":101785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660050041140846, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1660050041140887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660050041140894, "dur":11558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1660050041152492, "dur":101349, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660050040636533, "dur":134, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660050040636667, "dur":3557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660050040640226, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1660050040640444, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660050040717202, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1660050040719549, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660050040719610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660050040719617, "dur":27340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660050040747001, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660050040747043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660050040747051, "dur":38871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660050040785972, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660050040786036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660050040786046, "dur":45635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660050040831723, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660050040831768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660050040831778, "dur":38715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660050040870539, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660050040870582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660050040870592, "dur":86687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660050040957329, "dur":617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660050040957950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660050040957957, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660050040959382, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660050040959425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660050040959431, "dur":185284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660050041144757, "dur":893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1660050041145654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660050041145661, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1660050041146955, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1660050041147077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660050041147085, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1660050041148348, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1660050041148387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660050041148394, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1660050041150513, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1660050041150650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660050041150657, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Downloads/gamebox/rebuilt.GameBox_Unity/Game/GameBox_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1660050041151666, "dur":102175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660050041256517, "dur":1345, "ph":"X", "name": "ProfilerWriteOutput" }
+,

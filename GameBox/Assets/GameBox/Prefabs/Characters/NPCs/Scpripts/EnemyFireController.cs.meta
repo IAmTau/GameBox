@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 56b8b7f731abde047b9702cf1ab72afb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _projectile: {instanceID: 0}
+  - _firePoint: {instanceID: 0}
+  - _animationExplosion: {instanceID: 0}
+  - _animationAttackPlayer: {fileID: 7400000, guid: d580f1d1a428cb040b4d98afe8ba4e60, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
